@@ -1,16 +1,12 @@
-# Dependencias (esta carpeta es muy pesada y no se debe subir)
+# Extensiones e IA
+.agents/
+.cursor/
+
+# Dependencias
 node_modules/
+client/node_modules/
+server/node_modules/
 
-# Archivos de bitácora (logs)
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Entorno y configuración (si usas variables de entorno)
+# Seguridad (Vital por tu curso de Santander)
 .env
-
-# Archivos del sistema operativo
-.DS_Store
-Thumbs.db
-
-
+server/.env
