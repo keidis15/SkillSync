@@ -66,6 +66,16 @@ Bash
 # En la carpeta server
 npm run dev
 
+## 📸 Capturas de Pantalla
+
+| Home Page | Detalle de Sesión |
+| :---: | :---: |
+| ![Home](./client/public/home.png) | ![Ingresar](./client/public/session.png) | 
+
+| Vista Mobile |
+| :---: |
+| ![Mobile](./client/public/responsive.png) |
+
 ## 🎓 Sobre la Autora
 Desarrolladora Full Stack con formación en:
 
