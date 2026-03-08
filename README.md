@@ -2,6 +2,10 @@
 
 **SkillSync** es una aplicación Full Stack diseñada para que desarrolladores y estudiantes compartan recursos, guías y sesiones de estudio de manera organizada y colaborativa.
 
+## Live Demo
+🔗 Demo en Vivo: https://skill-sync-self-zeta.vercel.app
+⚙️ Backend API: https://skillsync-07m7.onrender.com
+
 ## 🛠️ Tecnologías Utilizadas
 
 ### Frontend
@@ -18,6 +22,7 @@
 ### Seguridad (Security First 🛡️)
 * **Hashing de Contraseñas**: Implementación de seguridad para la protección de usuarios.
 * **Validación de Datos**: Restricciones de longitud y contenido para prevenir inyecciones y ataques de denegación de servicio (DoS).
+* **CORS Policy**: "Configuración de origen cruzado dinámica para permitir peticiones únicamente desde el dominio de producción, mitigando ataques de tipo Cross-Site."
 
 ---
 
@@ -59,6 +64,9 @@ Crea un archivo .env en la carpeta /server con tus credenciales de Neon:
 Fragmento de código
 DATABASE_URL=tu_url_de_neon_aqui
 PORT=3000
+
+# En /client/.env
+VITE_API_URL=http://localhost:3000/api
 
 4- **Inicia el proyecto:**
 
