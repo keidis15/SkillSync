@@ -76,6 +76,9 @@ npm run dev
 | :---: |
 | ![Mobile](./client/public/responsive.png) |
 
+## Proyecto desplegado
+https://skill-sync-self-zeta.vercel.app
+
 ## 🎓 Sobre la Autora
 Desarrolladora Full Stack con formación en:
 
